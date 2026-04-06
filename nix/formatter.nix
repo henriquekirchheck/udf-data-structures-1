@@ -1,0 +1,6 @@
+{
+  perSystem.treefmt = {
+    settings = { };
+    programs = { };
+  };
+}

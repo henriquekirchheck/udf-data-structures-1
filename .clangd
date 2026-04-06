@@ -1,0 +1,19 @@
+Diagnostics:
+  UnusedIncludes: None
+Completion:
+  AllScopes: Yes
+  ArgumentLists: FullPlaceholders
+  HeaderInsertion: IWYU
+  CodePatterns: All
+InlayHints:
+  Enabled: true
+  BlockEnd: true
+  Designators: true
+  ParameterNames: true
+  DeducedTypes: true
+  DefaultArguments: false
+  TypeNameLimit: 24
+Hover:
+  ShowAKA: true
+Documentation:
+  CommentFormat: Markdown

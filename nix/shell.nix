@@ -20,6 +20,7 @@
                 packages = [
                   treefmt-wrapper
                   llvmPackages_22.clang-tools
+                  llvmPackages_22.lldb
                 ];
                 nativeBuildInputs = [
                   ninja

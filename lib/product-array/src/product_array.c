@@ -19,7 +19,7 @@ void ProductArray_destroy(ProductArray *array) {
   array->length = 0;
 }
 
-void ProductArray_expand(ProductArray *array, size_t capacity) {
+static void ProductArray_expand(ProductArray *array, size_t capacity) {
   if (capacity <= array->cap) {
     return;
   }
